@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradient"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context="com.talenthub.talenthub.MainActivity">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="453dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:padding="14dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="450dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewhub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="65dp"
+                        android:layout_marginTop="29dp"
+                        android:fontFamily="cursive"
+                        android:text="Talent Hub"
+                        android:textColor="#000040"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="250dp"
+                        android:layout_height="35dp"
+                        android:layout_below="@+id/imageView"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:drawableLeft="@drawable/ic_action_user"
+                        android:ems="10"
+                        android:hint="E-Mail"
+                        android:inputType="textPersonName"
+                        android:maxEms="10"
+                        android:maxLines="1"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="250dp"
+                        android:layout_height="35dp"
+                        android:layout_alignLeft="@id/editText"
+                        android:layout_alignStart="@id/editText"
+                        android:layout_below="@+id/editText"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@color/cardview_shadow_end_color"
+                        android:drawableLeft="@drawable/ic_action_pass"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+
+                    <Button
+                        android:id="@+id/buttonLogin"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editText2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="62dp"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/buttonstyle"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="#000040"
+                        android:text="LOGIN" />
+
+
+                    <TextView
+                        android:id="@+id/textViewLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:layout_below="@+id/buttonLogin"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:text="Don't have an account? Sign up"
+                        android:textColor="#000040"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+</RelativeLayout>

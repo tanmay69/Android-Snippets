@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "449512289328",
+    "firebase_url": "https://demofood-3380f.firebaseio.com",
+    "project_id": "demofood-3380f",
+    "storage_bucket": "demofood-3380f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449512289328:android:5e6b32d096a1b013",
+        "android_client_info": {
+          "package_name": "com.example.tanmayghosh.demofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449512289328-9i5f2ht43vr8hf929vfn9o9hecman1ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwfsGDnseluhv7NyOVQvccIAa_cwAHwps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

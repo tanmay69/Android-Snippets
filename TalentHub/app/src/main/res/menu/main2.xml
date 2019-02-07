@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+
+        android:title="Home"
+        android:icon="@drawable/ic_if_home_298794"
+        />
+
+    <item
+        android:id="@+id/categories"
+
+        android:title="Categories"
+        android:icon="@drawable/ic_if_categories_465051"
+         />
+
+    <item
+        android:id="@+id/upload"
+
+        android:title="Upload Your Talent"
+        android:icon="@drawable/ic_if_ic_file_upload_48px_352345"
+        />
+    <item
+        android:id="@+id/myuploads"
+
+        android:title="My Uploads"
+        android:icon="@drawable/ic_if_ic_my_library_books_48px_352555"
+        />
+    <item
+        android:id="@+id/contactus"
+
+        android:title="Contact Us"
+        android:icon="@drawable/ic_if_rounded_15_2024660"
+        />
+    <item
+        android:id="@+id/logout"
+
+        android:title="Log Out"
+        android:icon="@drawable/ic_if_signout_1031505"
+        />
+</menu>
+
+
+
+
